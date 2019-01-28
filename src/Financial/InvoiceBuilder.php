@@ -70,9 +70,7 @@ class InvoiceBuilder
                 'value' => $item->getValue()
             ];
 
-            if($item->getValue() and $item->getValue() != 0 ){
-             $this->setTotal($item->getValue());
-            }
+            $this->setTotal($item->getValue());
         }
     }
 
