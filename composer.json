@@ -1,0 +1,17 @@
+{
+    "name": "grodrigues/builder-pattern",
+    "description": "Builder Pattern PHP",
+    "authors": [
+        {
+            "name": "Guilherme Rodrigues",
+            "email": "guilhermerodriguestb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Tests\\":"tests/"
+        }
+    },
+    "require": {}
+}
